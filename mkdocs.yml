@@ -4,7 +4,7 @@ site_url: https://awx-operator.readthedocs.io/
 repo_url: https://github.com/ansible/awx
 edit_uri: blob/main/docs/
 docs_dir: docs
-strict: false
+strict: true
 use_directory_urls: false
 
 theme:
@@ -37,10 +37,10 @@ theme:
         name: Switch to light mode
 
 nav:
-  - awx-operator Documentation:
+  - AWX Operator Documentation:
       - home: index.md
- 
-  
+      - debugging.md
+      - migration.md
 
 plugins:
   - autorefs
