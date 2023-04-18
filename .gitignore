@@ -9,3 +9,10 @@ gh-pages/
 /.cr-release-packages
 .vscode/
 __pycache__
+#Python stuff
+.Python
+env/
+build/
+venv/
+# MkDocs build directory
+site/
